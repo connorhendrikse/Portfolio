@@ -1,0 +1,95 @@
+/* All pages*/
+
+    
+body{
+    background-color: rgb(8, 8, 73);
+    font-family: 'Poppins', sans-serif;}
+    h1{
+        color: white; 
+          
+        font-size: 40px;
+        }
+  /* Header & Navigation bar */
+header{
+
+    background-color: rgb(37, 37, 248);
+    padding: 3px;
+    text-align: center;
+}
+
+.navbar{
+    display: flex;
+   justify-content: space-evenly;
+   background-color: rgb(37, 37, 248);
+   padding: 10px;
+   margin-top: 10px;
+   
+   
+}
+.navbar a{
+ color: white; 
+ text-decoration: none;  
+ margin-top: 10px;
+}
+.biotitle{
+color: white;
+font-size: 30px;
+}
+.biotext{
+    color: white;
+}
+/* footer*/
+footer{
+    background-color:  rgb(37, 37, 248);
+    padding: 10px;
+    text-align: center;
+
+}
+footer p{
+    color: white;
+
+}
+
+/* Home page*/
+.biotitle{
+    color: white;
+    font-size: 30px;
+    }
+
+
+    .biotext{
+        color: white;
+    }
+/* Contact page*/
+.Contactheading{
+    color: white;
+    font-size: 30px;
+    }
+.Contactvalue{
+    background-color:  rgb(37, 37, 248);  
+}
+.contactinfo{
+    color: white;
+}
+
+/*Skills page*/
+.Skillsheading{
+    color: white;
+    font-size: 30px;  
+}
+.Skillsvalue{
+    color: white;
+}
+
+
+    .skillsinfo{
+color: white;
+    }
+
+    
+    git init
+    git add .
+    git commit -m "first commit"
+    git branch -M main
+    git remote add origin https://github.com/connorhendrikse/Portfolio.git
+    git push -u origin master
